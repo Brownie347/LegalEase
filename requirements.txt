@@ -1,0 +1,16 @@
+# Backend
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# Frontend
+streamlit>=1.40
+
+# Document export
+python-docx>=1.1
+fpdf2>=2.7.9        # imported as "fpdf" - do NOT also install the old "fpdf" package
+Pillow>=10.0
+
+# AI + utilities
+google-genai>=1.0   # official Gemini SDK (replaces the deprecated google-generativeai)
+requests>=2.31
+python-dotenv>=1.0
